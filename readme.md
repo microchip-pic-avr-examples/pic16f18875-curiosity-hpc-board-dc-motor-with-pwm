@@ -4,11 +4,9 @@
 # PIC16F18875 Control DC Motor with PWM
 
 ## Objective:
-In this application, the PIC16F18775 is used to generate the PWM signal to control a DC motor. The duty cycle of the PWM is adjusted according to the analog voltage read from the onboard potentiometer. The potentiometer is read using the ADCC set in Low Pass Filter mode, in order to reduce the noise.
+In this application, the PIC16F18875 is used to generate the PWM signal to control a DC motor. The duty cycle of the PWM is adjusted according to the analog voltage read from the onboard potentiometer. The potentiometer is read using the ADCC set in Low Pass Filter mode, in order to reduce the noise.
 
 ## Demo Configuration:
-
-The PIC uses the Burst Average mode of the ADCC to read the 3 sensors at power on, and then it uses those 3 values as setpoints. The alarm will sound if a sensor reading exceeds its setpoint by a specified value, which is written in the ADUTHL register. For an increased accuracy, the gas sensors require up to 48h of heating time, so the user can leave the circuit powered for that period, and then reset the setpoints by resetting the power.
 
 The MCU uses the high frequency internal oscilator (HFINTOSC), and the clock is set to 32 MHz. Watchdog Timer is not used in this demo, so it is disabled. 
 MCC configurations, Internal Oscillator and WWDT:
