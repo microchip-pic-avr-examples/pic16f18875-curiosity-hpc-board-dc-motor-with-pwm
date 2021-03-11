@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f18875-curiosity-hpc-board-dc-motor-with-pwm",
+        "version": "1.0.2",
+        "displayName": "PIC16F18875 Control DC Motor with PWM",
+        "projectName": "pic16f18875-curiosity-hpc-board-dc-motor-with-pwm",
+        "shortDescription": "In this application, the PIC16F18875 is used to generate the PWM signal to control a DC motor. The duty cycle of the PWM is adjusted according to the analog voltage read from the onboard potentiometer.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.30.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.10.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC16F1xxxx_DFP",
+            "semverRange": "^1.2.99"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,21 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC16F18875",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "PWM"
+            ]
         ],
         "peripherals": [
-            "",""
+            "PWM"
         ],
         "keywords": [
-            "",
-            ""			
+            "DC motor"
         ],
 		"additionalData": {
 			"longDescription": {
