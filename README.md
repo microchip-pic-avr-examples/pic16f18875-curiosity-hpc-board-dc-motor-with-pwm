@@ -1,7 +1,6 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
-<article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/MicrochipLogo.png" alt="MCHP" style="max-width:100%;"></a></p>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# PIC16F18875 Control DC Motor with PWM
+# DC Motor Control Using PWM
 
 ## Objective:
 In this application, the PIC16F18875 is used to generate the PWM signal to control a DC motor. The duty cycle of the PWM is adjusted according to the analog voltage read from the onboard potentiometer. The potentiometer is read using the ADCC set in Low Pass Filter mode, in order to reduce the noise.
